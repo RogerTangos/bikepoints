@@ -5,7 +5,7 @@
 
 /*  - Fonts
     - Scrollbar
-    - General   
+    - General
     - Loader
     - Navbar
     - Side Menu
@@ -42,7 +42,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #18191d;
+  background: #132e19;
 }
 
 ::-webkit-scrollbar-track {
@@ -62,7 +62,7 @@ body {
 
 h2 {
   font-size: 44px;
-  color: #18191d;
+  color: #132e19;
   font-weight: 600;
   text-align: center;
 }
@@ -106,8 +106,8 @@ a {
 
 .btn.btn-white {
   background: transparent;
-  border-color: #18191d;
-  color: #18191d;
+  border-color: #132e19;
+  color: #132e19;
 }
 
 .btn.btn-light-blue {
@@ -134,7 +134,7 @@ a {
 
 .btn.btn-hvr-white:hover,
 .btn.btn-hvr-white:focus {
-  color: #18191d;
+  color: #132e19;
   border-color: #fff;
   background: transparent !important;
 }
@@ -147,8 +147,8 @@ a {
 }
 
 .btn.btn-hvr-blue .btn-hvr-blue {
-  background: #18191d;
-  border-color: #18191d;
+  background: #132e19;
+  border-color: #132e19;
 }
 
 .btn.btn-hvr-white .btn-hvr-white {
@@ -198,8 +198,8 @@ a {
   border-radius: 100%;
   transform: translate3d(0, 150%, 0) scale(1.7);
   transition: transform 0.45s !important;
-  background: #18191d;
-  border-color: #18191d;
+  background: #132e19;
+  border-color: #132e19;
 }
 
 .btn-hvr-effect:nth-child(1) {
@@ -331,7 +331,7 @@ a {
 }
 
 .loader div:nth-child(2) {
-  background: #18191d;
+  background: #132e19;
   animation: ldio-8v0e2g029us 1.4492753623188404s linear infinite;
   animation-delay: 0s;
 }
@@ -360,7 +360,7 @@ a {
   padding-bottom: 0;
   margin-bottom: 0;
   z-index: 111;
-  background-color: #032a58 !important;
+  background-color: #0b4a1a !important;
   align-items: flex-end;
 }
 
@@ -657,7 +657,7 @@ a {
 
 .side-nav .navbar-nav .nav-link {
   display: inline-table;
-  color: #032a58;
+  color: #0b4a1a;
   padding: 2px 0 3px 0 !important;
   font-size: 24px;
   line-height: normal;
@@ -697,7 +697,7 @@ a {
 }
 
 .side-menu-footer p {
-  color: #18191d;
+  color: #132e19;
   font-size: 15px;
 }
 
@@ -710,11 +710,11 @@ a {
 }
 
 .side-menu-footer .banner-icons ul li i {
-  color: #18191d;
+  color: #132e19;
 }
 
 .side-menu-footer .banner-icons ul li a:hover {
-  background-color: #18191d;
+  background-color: #132e19;
   transition: all .8s ease;
 }
 
@@ -794,7 +794,7 @@ a {
 }
 
 .flip-box-back {
-  background-color: #032a58;
+  background-color: #0b4a1a;
   transform: rotateX(180deg);
 }
 
@@ -803,24 +803,32 @@ a {
 }
 
 .flip-box i {
-  color: #18191d;
+  color: #132e19;
   padding-top: 50px;
   font-size: 40px;
   text-align: center;
 }
 
 .flip-box p {
-  color: #18191d;
+  color: #132e19;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 600;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.flip-box-back p a {
+  color: #b1f2f2;
+}
+
+.flip-box-back p a:hover {
+  text-decoration: underline;
 }
 
 .flip-box h5 {
   font-size: 24px;
   font-weight: 500;
-  color: #18191d;
+  color: #132e19;
   margin-top: 20px;
   text-align: center;
 }
@@ -841,12 +849,12 @@ a {
   color: #fff;
 }
 
-.flip-box .blue-box .flip-box-front p {
-  color: #032a58;
+.flip-box .green-box .flip-box-front p {
+  color: #03580a;
 }
 
-.flip-box .blue-box .flip-box-front i {
-  color: #032a58;
+.flip-box .green-box .flip-box-front i {
+  color: #03580a;
 }
 
 
@@ -900,7 +908,7 @@ a {
 }
 
 .counter-section .media i {
-  color: #18191d;
+  color: #132e19;
   font-size: 40px;
 }
 
@@ -910,7 +918,7 @@ a {
 
 .counter-section .media .media-body span {
   font-size: 38px;
-  color: #032a58;
+  color: #0b4a1a;
 }
 
 .counter-section .media .media-body p {
@@ -976,7 +984,7 @@ a {
 }
 
 .team-section .team-detail p {
-  color: #18191d;
+  color: #132e19;
   font-size: 16px;
 }
 
@@ -988,7 +996,7 @@ a {
   height: 12px;
   border-radius: 50%;
   margin-top: 50px;
-  background: #18191d;
+  background: #132e19;
   border: none;
   font: inherit;
 }
@@ -1045,7 +1053,7 @@ a {
 }
 
 .story-section .trans-btn:hover i {
-  color: #18191d;
+  color: #132e19;
 }
 
 
@@ -1174,7 +1182,7 @@ a {
 
 .quote-section h3 {
   font-size: 38.1px;
-  color: #18191d;
+  color: #132e19;
   text-align: center;
 }
 
@@ -1222,7 +1230,7 @@ a {
 }
 
 .price-tag h3 {
-  color: #18191d;
+  color: #132e19;
   font-size: 36px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1237,7 +1245,7 @@ a {
 }
 
 .price-tag p {
-  color: #18191d;
+  color: #132e19;
   font-size: 14px;
 }
 
@@ -1250,7 +1258,7 @@ a {
   font-size: 18px;
   padding: 30px;
   color: #fff;
-  background-color: #18191d;
+  background-color: #132e19;
 }
 
 .active .price-tag h4 {

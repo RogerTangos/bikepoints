@@ -5,7 +5,7 @@ if ($(window).width() < 1020) {}
    ====================================== */
 $(window).on('load', function () {
     $(".loader").fadeOut();
-    $(".pre-loader").delay(500).fadeOut("slow");
+    $(".pre-loader").delay(0).fadeOut("slow");
 });
 /* ===================================
        Side Menu
