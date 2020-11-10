@@ -743,7 +743,7 @@ a {
   width: 100%;
   float: left;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   background-color: #f6f6f6;
 }
 
@@ -754,7 +754,7 @@ a {
 .flip-box {
   background-color: transparent;
   width: 350px;
-  height: 270px;
+  height: 300px;
   border-radius: 20px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
@@ -1293,7 +1293,7 @@ a {
 .blog-section {
   width: 100%;
   float: left;
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 120px;
   background-color: #f6f6f6;
 }
@@ -1352,8 +1352,8 @@ a {
 .contact-section {
   width: 100%;
   float: left;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 200px;
   background-color: #fff;
 }
 
